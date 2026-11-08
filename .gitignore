@@ -1,0 +1,16 @@
+# Credenciales: nunca subir
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Archivos generados por los scripts (se recrean con crear_datos.py y generador_reportes.py)
+datos_operaciones.csv
+cuarentena.csv
+reporte_operaciones.xlsx
+resumen_operaciones.txt
