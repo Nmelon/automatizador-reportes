@@ -42,6 +42,8 @@ python crear_datos.py           # genera datos de prueba en datos_operaciones.cs
 python generador_reportes.py    # genera reporte_operaciones.xlsx y cuarentena.csv
 ```
 
+Las columnas `Costo_Materiales` y `Costo_Mano_Obra` están en **miles de dólares** (un `10,69` equivale a US$10.690). El dashboard hace la conversión al mostrarlas.
+
 `crear_datos.py` produce 30 filas sintéticas con casos de prueba fijos: 3 sin ID (cuarentena) y otras con estado, horas o costos vacíos (imputación). Usa una semilla fija, pero las fechas se calculan respecto al día en que se ejecuta, así que cambian entre ejecuciones.
 
 ## Envío por correo (opcional)
